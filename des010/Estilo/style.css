@@ -1,0 +1,191 @@
+@charset "utf 8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fragment+Mono:ital@0;1&family=Kablammo&family=Lobster+Two&family=Noto+Sans+Anatolian+Hieroglyphs&family=Open+Sans:wght@300&family=Pacifico&family=Prompt:wght@100&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf');
+}
+
+:root{
+    --cor0:#10914F;
+    --cor1:#4FFFA4;
+    --cor2:#2FDE83;
+    --cor3:#911001;
+    --cor4:#DE412F;
+    --cor5:#10AD42;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', cursive;
+}
+
+body{
+    background-color:var(--cor1);
+    font-family: var(--fonte-padrao);
+    
+}
+a.externo::after{
+    content: '\🔗';
+}
+main p{
+    margin: 15px 0px  15px 0px;
+    text-align: justify;
+}
+header{
+    background-image: linear-gradient(to top rgb(164, 220, 164), rgb(90, 172, 90), rgb(28, 92, 28));
+    min-height: 150px;
+    text-align: center;padding-top: 30px;
+}
+
+header > h1{
+    color:white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.42);
+    font-weight: normal;
+}
+header > p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.258);
+}
+nav{
+    padding: 5px;
+    background-color:var(--cor2) ;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.479);
+}
+nav a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+nav a:hover{
+    background-color: var(--cor5);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;    
+    background-color: white;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.614) ;    
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+article > h1{
+    
+}
+main h1{
+    color: var(--cor3);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+main .pv{
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to top, var(--cor0), transparent);
+    font-weight: normal;
+}
+main .sv{
+    font-family: var(--fonte-android);
+    color: var(--cor5);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    text-shadow: 1px 1px black;
+    font-weight: normal;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+
+}
+main a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor3);
+    background-color: var(--cor1);
+}
+main a:hover{
+    color: black;
+    text-decoration: dashed;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+main img{
+    width: 100%;
+}
+main .pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+aside{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 15px;
+}
+aside > ul{
+    list-style-type: ✔️;
+    list-style-position: inside;
+    columns: 2;
+}
+aside h3{
+    font-family: var(--fonte-android);
+}
+div.video{
+    background-color: #10914e6d;
+    margin: 0px 0px 40px -20px;
+    padding: 80px;
+    padding-bottom: 40%;    
+    position: relative;
+    
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90%;
+}
+footer{
+    background-color: var(--cor0);
+    color: white;text-align: center;
+    padding: 8px;
+    
+}
+ footer > p > a{
+    text-decoration: none;
+    color: rgb(196, 164, 164);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.558);
+ }
+ footer a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: #911001;
+ }
+
+ 

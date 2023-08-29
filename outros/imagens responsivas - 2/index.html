@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Meu exercicio de imagens flexiveis</h1>
+    <p>Temos que usar a tag picture tambem a  img juntamente com as tags source, começando com a tag img usando a imagem maior e depois criando seleções com a tag source, e lembrando qe tem que começar pema img e ir adicionando imagens menores na parte de cima do codigo</p>
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagem/imagem_p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagem/imagem_m.png" type="image/png">
+        <img src="imagem/imagem_g.png" alt="imagem maior">
+    </picture>
+</body>
+</html>
