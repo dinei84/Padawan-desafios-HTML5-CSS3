@@ -24,6 +24,7 @@ header{
     background-color: rgba(0, 0, 0, 0.76);
     color: white;
     text-align: center;
+    
 }
 header > h1{
     padding-top: 50px;
@@ -43,13 +44,16 @@ a{
 }
 header a:hover, footer a:hover{
     font-weight: lighter;
-    color: grey;
+    color: rgb(107, 23, 23);
 }
 /*
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 */
+section > p{
+    padding-bottom: 0.5em;
+}
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -66,12 +70,26 @@ section.imagen > p{
 section.normal{
     background-color: white;
     color: black;
+        
 }
 section.imagen{
-    background-color: rgba(64, 58, 50, 0.653);
+    background-color: rgba(75, 71, 66, 0.486);
     color: white;
+    text-shadow: 1px 1px 4px black;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right, center;
+    
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right, bottom;
+   
+}
 
 
 
@@ -82,4 +100,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--font02);
 }
