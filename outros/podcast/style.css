@@ -4,9 +4,111 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+    font-family: 'yoxal';
+    src: url('fonts/yoxall__.ttf') format('truetype'), url('fonts/yoxall_b.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
 
 body{
     max-width: 1440px;
     max-height: 1080px;
     background: #121A2B;
+    font-family: 'yoxal';
 }
+body{
+    background-image: url('assets/bg.png');
+    background-position: right top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header{
+    position: absolute;
+    left: 35px;
+    top: 125px;
+}
+
+header > p{
+    font-size: 41px;
+}
+header .pod{
+    color: #1ed760;
+}
+header .dev{
+    color: white;
+}
+main > .item2{
+    position: absolute;
+    max-width: 650px;
+    top: 232px;
+    left: 35px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: -2.0px;
+}
+main > article{
+    color: rgb(192, 184, 184);
+    max-width: 650px;
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    letter-spacing: -0.15px;
+    line-height: 24px;
+}
+
+main > .item3{
+    color: white;
+    position: absolute;
+    top: 463px;
+    left: 35px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+main > form{
+    position: absolute;
+    top: 500px;
+    left: 35px;
+    
+}
+main > form{
+    width: 715px;
+    height: 36px;
+    position: relative;
+}
+form {
+    display: inline-block;
+    padding: 4px;
+    width: 155px;
+    height: 23px;
+    background-color: #2C344B;
+    border-radius: 20px;
+  }
+  
+form > input {
+    border: none;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    font-size: 17px;
+    background-color:#2C344B ;
+  }
+  
+form > button {
+    position: absolute;
+    left: 550px;
+    background: #1ED760;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #100f0f;
+    padding: 10px 65px;    
+  }
+form > button:hover{
+    color: #32FE5F;
+}
+
