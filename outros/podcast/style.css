@@ -83,7 +83,8 @@ main > form{
 form {
     display: inline-block;
     padding: 4px;
-    width: 155px;
+    max-width: 715px;
+    
     height: 23px;
     background-color: #2C344B;
     border-radius: 20px;
@@ -112,3 +113,35 @@ form > button:hover{
     color: #32FE5F;
 }
 
+@media screen and (max-width: 1080px){
+    form{
+        max-width: 80vw;
+    }
+}
+@media screen and (max-width: 00px){
+    form > button{
+        max-width: 60vw;
+    }
+}
+#rpe{
+    position: relative;
+    
+}
+
+.sp img{
+    position: absolute;
+    top: 544px;
+    left: 37px;
+    
+}
+
+.app{
+    position: absolute;
+    top: 540px;
+    left: 145px;
+}
+.dz{
+    position: absolute;
+    top: 544px;
+    left: 255px;
+}
