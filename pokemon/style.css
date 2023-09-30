@@ -4,13 +4,101 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face{
+    font-family: 'Pokemon.ttf';
+    src: url(fontes/Pokemon\ Hollow.ttf) format(.ttf);
+}
 body{
     width: 100vw;
     height: 100vh;
 }
 
 header{
-    width: 100vw;
-    height: 300px;
-    background-image: url();
+    width: 99vw;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    background-color: rgba(0, 255, 255, 0.366);
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+h1.titulo{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+
+    background-color: rgba(240, 248, 255, 0.168);
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(0, 102, 255);
+    text-shadow: 1px 1px 5px black;
+}
+main{
+    width: 99vw;
+    height: 700px;
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 2px 2px 10px black;
+    background-color: rgba(127, 255, 212, 0.364);
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    
+}
+
+article#vini{
+    width: 500px;
+    height: 600px;
+     background-color: rgba(255, 255, 255, 0.481); 
+     border: 3px solid brown;
+    box-shadow: 2px 2px 10px black;
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    z-index: 1;
+    
+}
+
+article > h1.vini{
+    position: relative;
+    top: ;
+    left: 50%;
+    transform: translate(-180px);
+    font-size: 3em;
+    font-family: cursive;
+    color: black;
+    z-index: 2;
+}
+
+/* lipe */
+
+article#lipe{
+    width: 500px;
+    height: 600px;
+     background-color: rgba(255, 255, 255, 0.481); 
+     border: 3px solid brown;
+     box-shadow: 2px 2px 10px black;
+    position: absolute;
+    top: 55px;
+    left: 600px;
+    z-index: 1;
+    
+}
+
+
+article > h1.lipe{
+    position: relative;
+    top: ;
+    left: 50%;
+    transform: translate(-180px);
+    font-size: 3em;
+    font-family: cursive;
+    color: black;
+    z-index: 2;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
